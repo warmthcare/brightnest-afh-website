@@ -63,6 +63,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+nav a.active {
+  background-color: #2f5d50;
+  color: #ffffff;
+}
+
 main {
   max-width: 960px;
   margin: 0 auto;
