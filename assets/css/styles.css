@@ -155,6 +155,35 @@ footer {
   color: #1f2a26;
 }
 
+.section-heading {
+  margin-bottom: 0.75rem;
+}
+
+.section-subtext {
+  max-width: 760px;
+  margin-bottom: 1.5rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.soft-section {
+  background-color: #ffffff;
+  border-top: 1px solid #e5e0d8;
+  border-bottom: 1px solid #e5e0d8;
+  padding: 2.5rem 0;
+}
+
+.cta-panel {
+  background-color: #ffffff;
+  border: 1px solid #e5e0d8;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
 @media (max-width: 640px) {
   header h1 {
     font-size: 1.45rem;
