@@ -234,6 +234,11 @@ footer {
   color: #50605a;
 }
 
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
 @media (max-width: 820px) {
   .split-layout {
     grid-template-columns: 1fr;
