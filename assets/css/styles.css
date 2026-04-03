@@ -155,9 +155,8 @@ footer {
   main {
     padding: 1.5rem 1rem 2.5rem;
   }
-
-
-   nav a {
+}
+ nav a {
      font-weight: 600;
      padding: 0.4rem 0.6rem;
      border-radius: 6px;
@@ -167,4 +166,3 @@ footer {
      background-color: #eef3ef;
      text-decoration: none;
    }
-}
