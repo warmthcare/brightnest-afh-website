@@ -99,6 +99,7 @@ footer {
 .site-footer-inner {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .hero {
@@ -218,4 +219,8 @@ footer {
   .container {
     padding: 0 1rem;
   }
+  .site-footer-inner {
+    padding: 0 1rem;
+}
+
 }
