@@ -32,7 +32,7 @@ a:hover {
 header {
   background-color: #ffffff;
   border-bottom: 1px solid #e5e0d8;
-  padding: 1.25rem 1.5rem;
+  padding: 1.5rem 1.5rem;
 }
 
 header h1 {
@@ -80,9 +80,10 @@ p {
 footer {
   background-color: #ffffff;
   border-top: 1px solid #e5e0d8;
-  padding: 1.25rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   color: #5f6b66;
   font-size: 0.95rem;
+  text-align: center;
 }
 
 .site-footer-inner {
@@ -102,6 +103,7 @@ footer {
 .hero p {
   font-size: 1.05rem;
   max-width: 720px;
+  padding: 2.5rem 0 1.5rem;
 }
 
 .page-intro {
