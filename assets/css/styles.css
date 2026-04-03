@@ -201,7 +201,48 @@ footer {
   padding: 0 1.5rem;
 }
 
+.image-placeholder {
+  background-color: #ece6dd;
+  border: 1px solid #ddd3c6;
+  border-radius: 14px;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6a756f;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+}
 
+.split-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.warm-panel {
+  background-color: #fffdf9;
+  border: 1px solid #e7dfd4;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 24px rgba(31, 42, 38, 0.04);
+}
+
+.note-text {
+  color: #50605a;
+}
+
+@media (max-width: 820px) {
+  .split-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .image-placeholder {
+    min-height: 220px;
+  }
+}
 
 @media (max-width: 640px) {
   header h1 {
