@@ -1,5 +1,158 @@
+/* =========================
+   BrightNest Base Styles
+   ========================= */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #2f3a36;
+  background-color: #f8f6f2;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: #2f5d50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e0d8;
+  padding: 1.25rem 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #1f2a26;
+}
+
+header p {
+  margin: 0.35rem 0 1rem;
+  color: #5f6b66;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+nav a {
+  font-weight: 600;
+  padding: 0.35rem 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #1f2a26;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #ffffff;
+  border-top: 1px solid #e5e0d8;
+  padding: 1.25rem 1.5rem;
+  color: #5f6b66;
+  font-size: 0.95rem;
+}
+
+.site-footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 2rem 0 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  max-width: 720px;
+}
+
+.page-intro {
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5e0d8;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2f5d50;
+  color: #ffffff;
+  padding: 0.8rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.button-secondary {
+  background-color: #dfe8e2;
+  color: #1f2a26;
+}
+
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 1.45rem;
+  }
+
+  .hero h2 {
+    font-size: 1.65rem;
+  }
+
+  main {
+    padding: 1.5rem 1rem 2.5rem;
+  }
 }
