@@ -184,6 +184,12 @@ footer {
   padding: 1.5rem;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 @media (max-width: 640px) {
   header h1 {
     font-size: 1.45rem;
