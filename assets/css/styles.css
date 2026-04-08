@@ -261,6 +261,10 @@ footer {
   .image-placeholder {
     min-height: 220px;
   }
+
+   .split-image {
+     min-height: 220px;
+  }
 }
 
 @media (max-width: 640px) {
