@@ -238,14 +238,15 @@ footer {
 
 .warm-panel {
   background-color: #ffffff;
-  border: 1px solid #e2d8cb;
+  border: 1px solid #ded4c7;
   border-radius: 14px;
-  padding: 1.75rem;
-  box-shadow: 0 14px 32px rgba(31, 42, 38, 0.06);
+  padding: 2rem;
+  box-shadow: 0 14px 30px rgba(31, 42, 38, 0.08);
 }
 
 .note-text {
-  color: #3f4a46;
+  color: #3e4945;
+  font-size: 1.08rem;
 }
 
 .card h2 {
