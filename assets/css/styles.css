@@ -227,23 +227,22 @@ footer {
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 12px;
-  filter: brightness(0.92);
+  border-radius: 12px;  
 }
 
 .split-layout {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
+  grid-template-columns: 1.1fr 1fr;
   gap: 1.5rem;
   align-items: center;
 }
 
 .warm-panel {
   background-color: #ffffff;
-  border: 1px solid #ded4c7;
+  border: 1px solid #e2d8cb;
   border-radius: 14px;
-  padding: 2rem;
-  box-shadow: 0 16px 36px rgba(31, 42, 38, 0.08);
+  padding: 1.75rem;
+  box-shadow: 0 12px 26px rgba(31, 42, 38, 0.06);
 }
 
 .note-text {
