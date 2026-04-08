@@ -164,7 +164,7 @@ footer {
 
 .section-heading {
   margin-bottom: 0.8rem;
-  font-size: 1.95rem;
+  font-size: 2.1rem;
 }
 
 .section-subtext {
@@ -241,7 +241,7 @@ footer {
   border: 1px solid #ded4c7;
   border-radius: 14px;
   padding: 2rem;
-  box-shadow: 0 14px 30px rgba(31, 42, 38, 0.08);
+  box-shadow: 0 16px 36px rgba(31, 42, 38, 0.08);
 }
 
 .note-text {
