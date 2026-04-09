@@ -238,7 +238,7 @@ footer {
 }
 
 .split-image {
-  min-height: 260px;
+  flex: 1;
   border: 1px solid #e7dfd4;
   border-radius: 14px;
   overflow: hidden;
@@ -257,12 +257,13 @@ footer {
 .image-panel {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .image-label {
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color: #6a756f;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: #4f5c57;
   line-height: 1.4;
 }
 
