@@ -254,6 +254,18 @@ footer {
   display: block;
 }
 
+.image-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-label {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6a756f;
+  line-height: 1.4;
+}
+
 .note-text {
   color: #50605a;
 }
