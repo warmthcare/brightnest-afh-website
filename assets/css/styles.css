@@ -216,7 +216,7 @@ footer {
 }
 
 /* =========================
-   FINAL BALANCED SPLIT LAYOUT
+   SPLIT LAYOUT
    ========================= */
 
 .split-layout {
@@ -237,14 +237,25 @@ footer {
   justify-content: center;
 }
 
+/* =========================
+   FIXED IMAGE PANEL (FINAL)
+   ========================= */
+
+.image-panel {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 100%;
+  align-self: stretch;
+}
+
 .split-image {
-  flex: 1;
+  height: 100%;
+  min-height: 0;
   border: 1px solid #e7dfd4;
   border-radius: 14px;
   overflow: hidden;
   background-color: #ffffff;
   box-shadow: 0 8px 18px rgba(31, 42, 38, 0.04);
-  display: flex;
 }
 
 .split-image img {
@@ -252,12 +263,6 @@ footer {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-.image-panel {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .image-label {
